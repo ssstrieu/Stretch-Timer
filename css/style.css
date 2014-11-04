@@ -1,0 +1,44 @@
+body{
+	background-color: #ccd9c8;
+	margin:0;
+	font-family: 'Dosis', sans-serif;
+	background-color:#9eb1a3;
+	color:#678566;
+}
+
+h1,h2,h3{
+
+	font-family: 'Fredoka One', sans-serif;
+}
+
+.nav{
+	position: absolute;
+	height: 30px;
+
+}
+.nav a{
+	float:left;
+	padding: 6px;
+	margin: 6px;
+
+}
+
+.wrapper{
+	margin: auto;
+	width: 600px;
+	padding: 60px 0 0 0;
+
+}
+
+#Timer{
+	margin:auto;
+	width:140px;
+	background-color: white;
+	font-size: 20px;
+	font-family: 'Fredoka One', sans-serif;
+	text-align: center;
+}
+.demoimg{
+	max-width: 600px;
+}
+
