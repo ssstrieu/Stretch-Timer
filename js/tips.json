@@ -6,7 +6,9 @@
             "Start with your palms together in front of your chest just below your chin.",
             "Slowly lower your hands toward your waistline, keeping your hands close to your stomach and your palms together, until you feel a mild to moderate stretch under your forearms.",
             "Hold for at least 15 to 30 seconds. Repeat 2 to 4 times."
-        ]
+        ],
+        "source":"http://www.webmd.com/pain-management/carpal-tunnel/stretching-exercises-for-preventing-carpal-tunnel-syndrome",
+        "area":"wrist"
     },
     {
         "name": "Wrist Flexor Stretch",
@@ -16,7 +18,9 @@
             "Bend your wrist, pointing your hand toward the floor.",
             "With your other hand, gently bend your wrist farther until you feel a mild to moderate stretch in your forearm.",
             "Hold for at least 15 to 30 seconds. Repeat 2 to 4 times."
-        ]
+        ],
+        "source":"http://www.webmd.com/pain-management/carpal-tunnel/stretching-exercises-for-preventing-carpal-tunnel-syndrome",
+        "area":"wrist"
     },
     {
         "name": "Wrist Extensor Stretch",
@@ -26,6 +30,8 @@
             "Bend your wrist, pointing your hand toward the floor.",
             "With your other hand, gently bend your wrist farther until you feel a mild to moderate stretch in your forearm.",
             "Hold for at least 15 to 30 seconds. Repeat 2 to 4 times."
-        ]
+        ],
+        "source":"http://www.webmd.com/pain-management/carpal-tunnel/stretching-exercises-for-preventing-carpal-tunnel-syndrome",
+        "area":"wrist"
     }
 ]

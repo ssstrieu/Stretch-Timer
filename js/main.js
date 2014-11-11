@@ -2,8 +2,8 @@ $(document).ready(){
 	alert('Stretch Break!');
 
 	var formatTip=function(tipName,tipDescription,tipPicSrc){
-		$('h3').text(tipName);
-		$('.wrapper').append('img').attr('src',tipPicSrc);
+		$('.tipName').text(tipName);
+		$('.tip.wrapper').append('img').attr('src',tipPicSrc);
 		for (var i = 0; i < tipDescription.length; i++) {
 			$('.wrapper').append('<li>').text(tipDescription[i]);
 		}

@@ -1,36 +1,40 @@
 debugger
-alert('hi this is test script.');
+console.log('hi this is test script running.');
 
 //this works- displaying tip on page
-	var formatTip=function(title,descrArray,imgSrc){
-		$('h1').text(title);
-		$('.wrapper img').attr('src',imgSrc);
+	var formatTip=function(title,descrArray,imgSrc,source){
+		$('.tipName').text(title);
+		$('.tip-wrapper img').attr('src',imgSrc);
+		$('.tip-wrapper a').attr('href',source);
+		$('.tip-wrapper a').text(source);
+
 		for (var i = 0; i < descrArray.length; i++) {
-			$('.wrapper').append('<li>');
-			$('.wrapper li').last().text(descrArray[i]);
+			console.log('starting desciprtion');
+			$('.tipIntructions').append('<li>');
+			$('.tipIntructions li').last().text(descrArray[i]);
 		}
-		$('.wrapper').append($('#newTip'));
+		$('.tip-wrapper').append($('#newTip'));
 	}	
 
-	var testDescr=['one','two','three']
+	
 
-//this doesn't work yet- cnnt to json file
-	var getJSONtip= $.getJSON( "tips.json", function(e) {
-		var tipNum=Math.floor(Math.random()*3)+1;
-		var tipName= tips[tipNum].name;
-		var tipPicSrc=tips[tipNum].img;
-		var tipDescription=[];
-		for (var i = 0; i < tips[tipNum].instructions.length; i++) {
-		 	tipDescription.push(tips[tipNum].instructions[i]);
-		 };
-		
-
-		formatTip(tipName,tipDescription,tipPicSrc);
-	});
-
-		//test var
-	var putTip= formatTip('Name',testDescr,'img/02.jpg');
-
-	$('#newTip').on('click',putTip);
+	//test implement
+	var testDescr=['one','two','three','four'];
+	formatTip('Cool Stretch',testDescr,'img/01.jpg','www.google.com');
+	//$('#newTip').on('click',putTip);
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
