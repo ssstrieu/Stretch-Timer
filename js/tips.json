@@ -8,7 +8,7 @@
             "Hold for at least 15 to 30 seconds. Repeat 2 to 4 times."
         ],
         "source":"http://www.webmd.com/pain-management/carpal-tunnel/stretching-exercises-for-preventing-carpal-tunnel-syndrome",
-        "area":"forearm"
+        "area":"Forearm"
     },{
         "name": "Wrist Flexor Stretch",
         "img": "img/02.jpg",
@@ -19,7 +19,7 @@
             "Hold for at least 15 to 30 seconds. Repeat 2 to 4 times."
         ],
         "source":"http://www.webmd.com/pain-management/carpal-tunnel/stretching-exercises-for-preventing-carpal-tunnel-syndrome",
-        "area":"forearm"
+        "area":"Forearm"
     },{
         "name": "Wrist Extensor Stretch",
         "img": "img/03.jpg",
@@ -30,7 +30,7 @@
             "Hold for at least 15 to 30 seconds. Repeat 2 to 4 times."
         ],
         "source":"http://www.webmd.com/pain-management/carpal-tunnel/stretching-exercises-for-preventing-carpal-tunnel-syndrome",
-        "area":"forearm"
+        "area":"Forearm"
     },{
         "name": "Seated Heart Opener",
         "img": "img/04.jpg",
@@ -41,7 +41,7 @@
             "Stay for 30 seconds, then lift your head and torso up."
         ],
         "source":"http://www.popsugar.com/fitness/Stretches-Sore-Neck-Pictures-8692689#photo-8702747",
-        "area":"neck"
+        "area":"Neck"
     },{
         "name": "Seated Clasping Neck Stretch",
         "img": "img/05.jpg",
@@ -52,7 +52,7 @@
             "Hold here for at least 30 seconds, and then slowly lift your head up and release your hands."
         ],
         "source":"http://www.popsugar.com/fitness/Stretches-Sore-Neck-Pictures-8692689#photo-8702743",
-        "area":"neck"
+        "area":"Neck"
     },{
         "name": "Behind the Back Neck Stretch",
         "img": "img/06.jpg",
@@ -63,7 +63,7 @@
             "Stay here for 30 seconds and then switch sides."
         ],
         "source":"http://www.popsugar.com/fitness/Stretches-Sore-Neck-Pictures-8692689#photo-8702745",
-        "area":"neck"
+        "area":"Neck"
     },{
         "name": "Upper Spinal Rotation",
         "img": "img/07.jpg",
@@ -71,7 +71,7 @@
             "Performing this stretch will help you to increase the flexibility of your upper back. Breathe deeply during the exercise, expanding the lower kidney area of the back as the lower rib cage opens up."
         ],
         "source":"http://www.wikihow.com/Stretch-Your-Back",
-        "area":"back"
+        "area":"Back"
     },{
         "name": "Sitting Spinal Twist",
         "img": "img/08.jpg",
@@ -82,6 +82,6 @@
             "Hold the stretch for at least 20 seconds and repeat it on your other side."
         ],
         "source":"http://www.wikihow.com/Stretch-Your-Back",
-        "area":"back"
+        "area":"Back"
     }
 ]
