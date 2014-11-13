@@ -8,9 +8,8 @@
             "Hold for at least 15 to 30 seconds. Repeat 2 to 4 times."
         ],
         "source":"http://www.webmd.com/pain-management/carpal-tunnel/stretching-exercises-for-preventing-carpal-tunnel-syndrome",
-        "area":"wrist"
-    },
-    {
+        "area":"forearm"
+    },{
         "name": "Wrist Flexor Stretch",
         "img": "img/02.jpg",
         "instructions": [
@@ -20,9 +19,8 @@
             "Hold for at least 15 to 30 seconds. Repeat 2 to 4 times."
         ],
         "source":"http://www.webmd.com/pain-management/carpal-tunnel/stretching-exercises-for-preventing-carpal-tunnel-syndrome",
-        "area":"wrist"
-    },
-    {
+        "area":"forearm"
+    },{
         "name": "Wrist Extensor Stretch",
         "img": "img/03.jpg",
         "instructions": [
@@ -32,6 +30,58 @@
             "Hold for at least 15 to 30 seconds. Repeat 2 to 4 times."
         ],
         "source":"http://www.webmd.com/pain-management/carpal-tunnel/stretching-exercises-for-preventing-carpal-tunnel-syndrome",
-        "area":"wrist"
+        "area":"forearm"
+    },{
+        "name": "Seated Heart Opener",
+        "img": "img/04.jpg",
+        "instructions": [
+            "Begin sitting on the heels as if coming into Reclining Hero pose .",
+            "Lean back and place your palms flat on the floor about eight to 10 inches behind you so your fingertips are pointing away.",
+            "Press your hands firmly into the ground to lift the chest high, arching your back and pushing your hips into your heels. To increase the stretch, lower your head behind you, stretching through your throat and the front of your chest even more.",
+            "Stay for 30 seconds, then lift your head and torso up."
+        ],
+        "source":"http://www.popsugar.com/fitness/Stretches-Sore-Neck-Pictures-8692689#photo-8702747",
+        "area":"neck"
+    },{
+        "name": "Seated Clasping Neck Stretch",
+        "img": "img/05.jpg",
+        "instructions": [
+            "Sit comfortably in a chair or on the floor.",
+            "Clasp your hands and bring both palms to the back of your head. Sitting with a tall spine, ground your hips firmly into your seat.",
+            "From here, begin to gently press your hands down toward your thighs, tucking your chin into your chest. As you press down, use the heels of your palms to pull your head away from your shoulders. This will intensify the stretch even more.",
+            "Hold here for at least 30 seconds, and then slowly lift your head up and release your hands."
+        ],
+        "source":"http://www.popsugar.com/fitness/Stretches-Sore-Neck-Pictures-8692689#photo-8702743",
+        "area":"neck"
+    },{
+        "name": "Behind the Back Neck Stretch",
+        "img": "img/06.jpg",
+        "instructions": [
+            "Stand with your feet hip distance apart, arms by your sides.",
+            "Reach both hands behind your backside, and hold onto your left wrist with your right hand. Use your right hand to gently straighten your left arm and pull it away from you slightly.",
+            "To increase the stretch in your neck, slowly lower your right ear toward your shoulder.",
+            "Stay here for 30 seconds and then switch sides."
+        ],
+        "source":"http://www.popsugar.com/fitness/Stretches-Sore-Neck-Pictures-8692689#photo-8702745",
+        "area":"neck"
+    },{
+        "name": "Upper Spinal Rotation",
+        "img": "img/07.jpg",
+        "instructions": [
+            "Performing this stretch will help you to increase the flexibility of your upper back. Breathe deeply during the exercise, expanding the lower kidney area of the back as the lower rib cage opens up."
+        ],
+        "source":"http://www.wikihow.com/Stretch-Your-Back",
+        "area":"back"
+    },{
+        "name": "Sitting Spinal Twist",
+        "img": "img/08.jpg",
+        "instructions": [
+            "This exercise requires you to sit on the floor and to twist your upper body to either side at the waist, stretching the back. First, sit down with your legs stretched out.",
+            "Then, tuck in your left knee until it faces up and then move it over your right thigh. Keep your right leg extended while your left knee is facing upwards, and twist to your left side.",
+            "Place your right elbow to the side of your left knee to intensify the stretch.",
+            "Hold the stretch for at least 20 seconds and repeat it on your other side."
+        ],
+        "source":"http://www.wikihow.com/Stretch-Your-Back",
+        "area":"back"
     }
 ]

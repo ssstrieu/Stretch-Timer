@@ -24,16 +24,19 @@ h1,h2,h3{
 
 }
 
-.wrapper{
-	padding: 60px 40px;
+.sourcebox,.wrapper{
+	padding: 20px;
 	width: 500px;
-
 }
 
-}
+
+
 .demoimg{
-	max-width: 600px;
+	max-height: 300px;
+	margin:0 30px;
 }
+
+
 
 #newTip{
 	margin: 20px 0 0 0 ;
@@ -43,6 +46,10 @@ h1,h2,h3{
 select{
 	margin-bottom: 16px;
 	display: block;
-	
+
+}
+
+#mepic{
+	width: 150px;
 
 }
