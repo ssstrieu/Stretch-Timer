@@ -83,5 +83,27 @@
         ],
         "source":"http://www.wikihow.com/Stretch-Your-Back",
         "area":"Back"
+    },{
+        "name": "Eye Rotation Stretch",
+        "img": "",
+        "instructions": [
+            "Rotate your eyes in a clockwise direction 5 times.",
+            "Then, Rotate in the opposite direction 5 times",
+            "Vary the force and speed of the rotations each time.",
+            "Repeat twice."
+        ],
+        "source":"my dad",
+        "area":"eye"
+    },{
+        "name": "Eye Tension Release",
+        "img": "",
+        "instructions": [
+            "Look out a window and focus on a far-away object for 10 seconds.",
+            "Refocus your gaze on something between the first object and yourself. Hold for another 10 seconds.",
+            "Switch your focus to objects varying in distance from you to stretch out the muscles in your eye.",
+            "Optionally, stare at something green in color. It's relaxing."
+        ],
+        "source":"my dad",
+        "area":"eye"
     }
 ]
