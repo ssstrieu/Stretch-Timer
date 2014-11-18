@@ -2,7 +2,7 @@
 //alert('Stretch Break!');
 
 //pass area parm from index page
-
+console.log(filterValue);
 
 
 //this works- displaying tip on page
@@ -21,54 +21,88 @@
 	}	
 
 
-//trying to filter types of stretches, passes #parm
-
-
+//trying to filter types of stretches, passes parm
 $('#timerStart').on('click', function(ev){
 	ev.preventDefault();
 
-	var filterValue=$('#focusArea').val();
+	filterValue=$('#focusArea').val();
 	var url = 'stretch.html'+'#'+filterValue;
 	console.log("The filterValue is "+filterValue);
 	window.location = url;
 });
 
 //redefine filtervalue on second page by passing parm from index
-var filter#=location.hash.split('#')[1];
+var filterValue='all'; //give default
+var filterListOn=location.hash.split('#')[1];
+console.log('filterValue is:',filterValue,'| filterListOn : ',filterListOn);
 var filteredList=[];
+var neckList=[];
+var backList=[];
+var forearmList=[];
 var tipObject={};
 
+
+
+//filters all exercises into groupArrays
+	$.ajax({
+		url:'js/tips.json',
+		type:"GET",
+		dataType:"json",
+		success: function(response){
+			console.log('start filtering');
+			for (var i = 0; i < response.length; i++) {
+				if(response[i].area.toLowerCase()=='neck'){
+					neckList.push(response[i]);
+					console.log('necklist done');
+				}
+				if(response[i].area.toLowerCase()=='forearm'){
+					forearmList.push(response[i]);
+					console.log('forearm list done');
+				}
+				if(response[i].area.toLowerCase()=='back'){
+					backList.push(response[i]);
+					console.log('back list done');
+				}
+			}
+		}
+	});
+
+
+//now present list according to user selection
 //connect to json
 //parms: title,descrArray,imgSrc,source
-
 	$.ajax({
 		url: 'js/tips.json',
 		type:"GET",
 		dataType: "json",
 		success: function(response){
 			console.log('jsonnnnn connected');
-			if (!filterValue=='All'){
-				for (var i = 0; i < response.length; i++) {
-					if(filter#=response[i].area) {
-						filteredList.push(response[i]);
-						console.log(response[i].area);
-						
-					}
-				console.log(filteredList);
-				}
-			}else{
-				//for filter of "All", just pass entire tip library
+			if (filterListOn=='neck') {
+			filteredList=neckList;
+			getRandomTip();
+			}
+			if (filterListOn=='back') {
+			filteredList=backList;
+			getRandomTip();
+			}
+			if (filterListOn=='forearm') {
+			filteredList=forearmList;
+			getRandomTip();
+			}
+			else{
 				for (var i = 0; i < response.length; i++) {
 					filteredList.push(response[i]);
-					
+					getRandomTip();
+					console.log(response[i]);
 				}
-				console.log('condition that filterValue is ALL');
+				
 			}
-		getRandomTip();
 		}
 	});
+
+
 var tipObject={};
-var n=0;
+var n=0; //default
 
 	function getRandomTip(){
 		n=(Math.floor((Math.random())*filteredList.length));
